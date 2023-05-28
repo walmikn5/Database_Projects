@@ -1,0 +1,35 @@
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `tblblooddonars`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `tblbloodgroup`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `tblcontactusinfo`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `tblcontactusquery`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `tblpages`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+
+ALTER TABLE `tblblooddonars`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+
+ALTER TABLE `tblbloodgroup`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
+
+ALTER TABLE `tblcontactusinfo`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+
+ALTER TABLE `tblcontactusquery`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
+
+ALTER TABLE `tblpages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=22;
